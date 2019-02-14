@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/default_avatar_large" />
+
+    <TextView
+        android:id="@+id/settings_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254dp"
+        android:text="Display Name"
+        android:textColor="#fff"
+        android:textSize="27dp" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_name"
+        android:layout_centerHorizontal="true"
+        android:text="Hi, there. I'm using chitchat"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/change_status_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/button_style2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Change Status"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/change_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Change Image"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+</RelativeLayout>

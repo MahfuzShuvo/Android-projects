@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:src="@drawable/cc" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/ccn" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:background="@drawable/button_style2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Create An Account ?"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="   Have an Account   "
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+</RelativeLayout>
